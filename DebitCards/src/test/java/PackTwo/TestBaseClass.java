@@ -36,7 +36,7 @@ public class TestBaseClass {
 	
 	else */if (prop.getProperty("browser").contains("chrome"))
 	{
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Prem\\Downloads\\Study\\Selenium Files\\Browser Drivers\\chrome.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Prem\\Downloads\\Study\\Selenium Files\\Browser Drivers\\chromedriver.exe");
 		driver=new ChromeDriver();
 	}
 	
