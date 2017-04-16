@@ -27,22 +27,22 @@ public class TestBaseClass {
 	
 		//driver.findElement(By.xpath("")).sendKeys("");
 		
-	if (prop.getProperty("browser").contains("firefox"))
+	/*if (prop.getProperty("browser").contains("firefox"))
 	{
 		System.setProperty("webdriver.gecko.driver", "C:\\Users\\Prem\\Downloads\\Study\\Selenium Files\\geckodriver.exe");
 
 		driver=new FirefoxDriver();
 	}
 	
-	else if (prop.getProperty("browser").contains("chrome"))
+	else */if (prop.getProperty("browser").contains("chrome"))
 	{
-		//System.setProperty("webdriver.chrome.driver", "");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Prem\\Downloads\\Study\\Selenium Files\\Browser Drivers\\chrome.exe");
 		driver=new ChromeDriver();
 	}
 	
 	else
 	{
-		//System.setProperty("webdriver.ie.driver", "");
+		System.setProperty("webdriver.ie.driver", "C:\\Users\\Prem\\Downloads\\Study\\Selenium Files\\Browser Drivers\\IEDriverServer.exe");
 		driver=new InternetExplorerDriver();
 	}
 	
