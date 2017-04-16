@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation testing" duration-ms="44" started-at="2017-04-16T07:56:08Z" finished-at="2017-04-16T07:56:08Z">
+    <groups>
+    </groups>
+    <test name="Smoke test cases" duration-ms="44" started-at="2017-04-16T07:56:08Z" finished-at="2017-04-16T07:56:08Z">
+      <class name="testngFiles.Annotations">
+        <test-method status="PASS" signature="Cookies()[pri:0, instance:testngFiles.Annotations@47c62251]" name="Cookies" is-config="true" duration-ms="1" started-at="2017-04-16T13:26:08Z" finished-at="2017-04-16T13:26:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cookies -->
+        <test-method status="PASS" signature="AOpeningBrowser()[pri:0, instance:testngFiles.Annotations@47c62251]" name="AOpeningBrowser" duration-ms="10" started-at="2017-04-16T13:26:08Z" finished-at="2017-04-16T13:26:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AOpeningBrowser -->
+        <test-method status="PASS" signature="UseridGeneration()[pri:0, instance:testngFiles.Annotations@47c62251]" name="UseridGeneration" is-config="true" duration-ms="0" started-at="2017-04-16T13:26:08Z" finished-at="2017-04-16T13:26:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UseridGeneration -->
+        <test-method status="PASS" signature="BrowserClose()[pri:0, instance:testngFiles.Annotations@47c62251]" name="BrowserClose" is-config="true" duration-ms="1" started-at="2017-04-16T13:26:08Z" finished-at="2017-04-16T13:26:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+        <test-method status="PASS" signature="CookiesClose()[pri:0, instance:testngFiles.Annotations@47c62251]" name="CookiesClose" is-config="true" duration-ms="0" started-at="2017-04-16T13:26:08Z" finished-at="2017-04-16T13:26:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CookiesClose -->
+      </class> <!-- testngFiles.Annotations -->
+      <class name="testngFiles.Annot2">
+        <test-method status="PASS" signature="installSoftware()[pri:0, instance:testngFiles.Annot2@6f7fd0e6]" name="installSoftware" is-config="true" duration-ms="18" started-at="2017-04-16T13:26:08Z" finished-at="2017-04-16T13:26:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- installSoftware -->
+        <test-method status="PASS" signature="deinstallSoftware()[pri:0, instance:testngFiles.Annot2@6f7fd0e6]" name="deinstallSoftware" is-config="true" duration-ms="1" started-at="2017-04-16T13:26:08Z" finished-at="2017-04-16T13:26:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deinstallSoftware -->
+      </class> <!-- testngFiles.Annot2 -->
+    </test> <!-- Smoke test cases -->
+  </suite> <!-- Automation testing -->
+</testng-results>

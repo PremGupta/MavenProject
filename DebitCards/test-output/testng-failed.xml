@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation testing]">
+  <test name="Smoke test cases(failed)">
+    <classes>
+      <class name="PackTwo.DependencyAnnot">
+        <methods>
+          <include name="OpeningBrowser"/>
+          <include name="deinstallSoftware"/>
+          <include name="FlightBooking"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- PackTwo.DependencyAnnot -->
+      <class name="PackTwo.TestBaseClass">
+        <methods>
+          <include name="deinstallSoftware"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- PackTwo.TestBaseClass -->
+    </classes>
+  </test> <!-- Smoke test cases(failed) -->
+</suite> <!-- Failed suite [Automation testing] -->
